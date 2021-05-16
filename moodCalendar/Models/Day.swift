@@ -8,8 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct Day: Hashable, Codable {
+struct Day: Codable {
     var day: String
     var color: Int
     var weekday: Int
+    
 }

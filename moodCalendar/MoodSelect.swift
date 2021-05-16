@@ -141,6 +141,9 @@ struct MoodSelect: View {
                     
                     NavigationLink(destination: WeekView(), tag: 1, selection: $continuePressed) {
                         Button("Continue", action: {updateColor(c: mood)
+                            print(days)
+                            save(data: days)
+//                            days = load("colorlist.json")
                             self.continuePressed = 1
                             print("test")
                         })

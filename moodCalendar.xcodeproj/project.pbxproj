@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B508CC3B2651DBF50032D30E /* colorlist.json in Resources */ = {isa = PBXBuildFile; fileRef = B508CC3A2651DBF50032D30E /* colorlist.json */; };
-		B508CC3D2651E0C50032D30E /* JSONSaveLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508CC3C2651E0C50032D30E /* JSONSaveLoad.swift */; };
-		B51FE2F42644F42800F4891B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B51FE2F32644F42800F4891B /* data.json */; };
 		B55DFC5C263F5AB700BEBAE7 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DFC5B263F5AB700BEBAE7 /* Day.swift */; };
 		B55DFC5D263F5AB700BEBAE7 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DFC5B263F5AB700BEBAE7 /* Day.swift */; };
 		B55DFC5E263F5AB700BEBAE7 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DFC5B263F5AB700BEBAE7 /* Day.swift */; };
@@ -24,9 +21,9 @@
 		B5689C82263624F00052908F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5689C80263624F00052908F /* LaunchScreen.storyboard */; };
 		B5689C8D263624F00052908F /* moodCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5689C8C263624F00052908F /* moodCalendarTests.swift */; };
 		B5689C98263624F00052908F /* moodCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5689C97263624F00052908F /* moodCalendarUITests.swift */; };
+		B5B768F82651E8AE0004B8B3 /* BlankData.json in Resources */ = {isa = PBXBuildFile; fileRef = B5B768F72651E8AE0004B8B3 /* BlankData.json */; };
 		B5BDD08B26424498001F26E0 /* MoodSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BDD08A26424498001F26E0 /* MoodSelect.swift */; };
 		B5BDD08D264247C5001F26E0 /* WeekData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BDD08C264247C5001F26E0 /* WeekData.swift */; };
-		B5BDD08F26424D19001F26E0 /* ColorData.json in Resources */ = {isa = PBXBuildFile; fileRef = B5BDD08E26424D19001F26E0 /* ColorData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B508CC3A2651DBF50032D30E /* colorlist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colorlist.json; sourceTree = "<group>"; };
-		B508CC3C2651E0C50032D30E /* JSONSaveLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSaveLoad.swift; sourceTree = "<group>"; };
-		B51FE2F32644F42800F4891B /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		B55DFC5B263F5AB700BEBAE7 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		B55DFC5F263F5CB400BEBAE7 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		B5689C72263624EE0052908F /* moodCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,9 +60,9 @@
 		B5689C93263624F00052908F /* moodCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5689C97263624F00052908F /* moodCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodCalendarUITests.swift; sourceTree = "<group>"; };
 		B5689C99263624F00052908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B768F72651E8AE0004B8B3 /* BlankData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BlankData.json; sourceTree = "<group>"; };
 		B5BDD08A26424498001F26E0 /* MoodSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelect.swift; sourceTree = "<group>"; };
 		B5BDD08C264247C5001F26E0 /* WeekData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekData.swift; sourceTree = "<group>"; };
-		B5BDD08E26424D19001F26E0 /* ColorData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ColorData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +93,6 @@
 		B5689C69263624EE0052908F = {
 			isa = PBXGroup;
 			children = (
-				B508CC3A2651DBF50032D30E /* colorlist.json */,
 				B5689C74263624EE0052908F /* moodCalendar */,
 				B5689C8B263624F00052908F /* moodCalendarTests */,
 				B5689C96263624F00052908F /* moodCalendarUITests */,
@@ -173,9 +166,7 @@
 			children = (
 				B55DFC5B263F5AB700BEBAE7 /* Day.swift */,
 				B5BDD08C264247C5001F26E0 /* WeekData.swift */,
-				B5BDD08E26424D19001F26E0 /* ColorData.json */,
-				B51FE2F32644F42800F4891B /* data.json */,
-				B508CC3C2651E0C50032D30E /* JSONSaveLoad.swift */,
+				B5B768F72651E8AE0004B8B3 /* BlankData.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -283,12 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B768F82651E8AE0004B8B3 /* BlankData.json in Resources */,
 				B5689C82263624F00052908F /* LaunchScreen.storyboard in Resources */,
-				B508CC3B2651DBF50032D30E /* colorlist.json in Resources */,
 				B5689C7F263624F00052908F /* Preview Assets.xcassets in Resources */,
 				B5689C7C263624F00052908F /* Assets.xcassets in Resources */,
-				B51FE2F42644F42800F4891B /* data.json in Resources */,
-				B5BDD08F26424D19001F26E0 /* ColorData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +308,6 @@
 				B5689C78263624EE0052908F /* SceneDelegate.swift in Sources */,
 				B5689C7A263624EE0052908F /* ContentView.swift in Sources */,
 				B55DFC5C263F5AB700BEBAE7 /* Day.swift in Sources */,
-				B508CC3D2651E0C50032D30E /* JSONSaveLoad.swift in Sources */,
 				B5BDD08D264247C5001F26E0 /* WeekData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

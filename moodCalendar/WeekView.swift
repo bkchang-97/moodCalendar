@@ -65,7 +65,7 @@ struct WeekView: View {
                         Text("Monday")
                     }
                     Spacer()
-                    Rectangle().fill(getColor(i: days[2].color)).frame(width: 50, height: 50)
+                    Rectangle().fill(getColor(i: colors.days[2].color)).frame(width: 50, height: 50)
                     Spacer()
                 }.padding()
                 
@@ -76,7 +76,7 @@ struct WeekView: View {
                         Text("Tuesday")
                     }
                     Spacer()
-                    Rectangle().fill(getColor(i: days[3].color)).frame(width: 50, height: 50)
+                    Rectangle().fill(getColor(i: colors.days[3].color)).frame(width: 50, height: 50)
                     Spacer()
                 }.padding()
                 
@@ -87,7 +87,7 @@ struct WeekView: View {
                         Text("Wednesday")
                     }
                     Spacer()
-                    Rectangle().fill(getColor(i: days[4].color)).frame(width: 50, height: 50)
+                    Rectangle().fill(getColor(i: colors.days[4].color)).frame(width: 50, height: 50)
                     Spacer()
                 }.padding()
                 
@@ -98,7 +98,7 @@ struct WeekView: View {
                         Text("Thursday")
                     }
                     Spacer()
-                    Rectangle().fill(getColor(i: days[5].color)).frame(width: 50, height: 50)
+                    Rectangle().fill(getColor(i: colors.days[5].color)).frame(width: 50, height: 50)
                     Spacer()
                 }.padding()
                 
@@ -109,7 +109,7 @@ struct WeekView: View {
                         Text("Friday")
                     }
                     Spacer()
-                    Rectangle().fill(getColor(i: days[6].color)).frame(width: 50, height: 50)
+                    Rectangle().fill(getColor(i: colors.days[6].color)).frame(width: 50, height: 50)
                     Spacer()
                 }.padding()
                 
@@ -120,7 +120,7 @@ struct WeekView: View {
                         Text("Saturday")
                     }
                     Spacer()
-                    Rectangle().fill(getColor(i: days[7].color)).frame(width: 50, height: 50)
+                    Rectangle().fill(getColor(i: colors.days[7].color)).frame(width: 50, height: 50)
                     Spacer()
                 }.padding()
                 
@@ -131,7 +131,7 @@ struct WeekView: View {
                         Text("Sunday")
                     }
                     Spacer()
-                    Rectangle().fill(getColor(i: days[1].color)).frame(width: 50, height: 50)
+                    Rectangle().fill(getColor(i: colors.days[1].color)).frame(width: 50, height: 50)
                     Spacer()
                 }.padding()
                 
